@@ -1,0 +1,13 @@
+img {
+    border-radius: 50%;
+    width: 200px;
+}
+.container-padding {
+    padding: 40px;
+    
+}
+.description-block {
+    background-color: grey;
+    padding: 40px;
+    margin: 20px;
+}
