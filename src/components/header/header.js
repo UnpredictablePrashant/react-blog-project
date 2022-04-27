@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from '../../assets/images/logo.png'
 import './header.css'
+import { Link } from "react-router-dom";
 
 class Header extends React.Component {
   constructor(props) {
@@ -11,9 +12,9 @@ class Header extends React.Component {
       <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <Link class="navbar-brand" to="/">
               <img className="logo" src={Logo}/>
-            </a>
+            </Link>
             <button
               class="navbar-toggler"
               type="button"
@@ -28,19 +29,19 @@ class Header extends React.Component {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mb-2 mb-lg-0 ms-auto my-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
+                  <Link class="nav-link active" aria-current="page" to="/blogs">
                     Blogs
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <Link class="nav-link" to="/contactus">
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <Link class="nav-link" to="/aboutus">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 
               </ul>

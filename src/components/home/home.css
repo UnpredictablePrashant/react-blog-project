@@ -1,0 +1,133 @@
+body{
+    height: 100vh;
+    
+}
+
+
+
+
+.sidebar-wrapper{
+    width: 100%;
+    background: #055384;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.sidebar-wrapper .user-img {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.user-details {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.user-details h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.user-details strong {
+    color: #fff;
+    /* background: #333; */
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 500;
+}
+.user-details strong i {
+    margin-right: 5px;
+}
+.blog-wrapper h2 {
+    text-align: left;
+}
+.blog-wrapper , .subs-wrapper{
+    margin-top: 30px;
+    
+}
+.post-wrapper {
+    background: #fff;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.post-wrapper h3 {
+    color: #055384;
+}
+.post-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-footer span:last-child {
+    font-size: 12px;
+}
+.subs-wrapper .btn-danger {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #ddd;
+}
+.subs-wrapper .subs {
+    display: flex;
+    align-items: center;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
+.subs-wrapper h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #055384
+}
+.subs-wrapper .subs img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.blogsBox{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+   
+
+}
+.input-wrapper label {
+    font-weight: 500;
+    margin-right: 15px;
+    min-width: 100px;
+}
+.contact-wrapper {
+    margin-top: 50px;
+    text-align: center;
+}
+.contact-wrapper h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
